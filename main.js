@@ -26,6 +26,6 @@ targetFileNameList.forEach((fileName, index) => {
         throw err;
     }
 
-    console.log(before + "-->" + after);
+    console.log(`${before} -> ${after}`);
   });
 });
